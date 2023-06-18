@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Apps_FlashSale_appPendaki,,,,2023-06-18 21:45:07,2023-06-18 21:46:30,1m - 23.416s,FAILED
+,,,,,,,
+Test Cases/Test_AppPendaki/OpenDetail,,,,2023-06-18 21:45:08,2023-06-18 21:45:57,49.172s,PASSED
+"startApplication(""mobileapp\app-pendaki.apk"", true)",,,,2023-06-18 21:45:09,2023-06-18 21:45:44,34.857s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-18 21:45:44,2023-06-18 21:45:47,3.130s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/ListPictureImageView""), 0)",,,,2023-06-18 21:45:47,2023-06-18 21:45:49,1.818s,PASSED
+"scrollToText(""Argopoera"")",,,,2023-06-18 21:45:49,2023-06-18 21:45:50,1.504s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/BackImageButton""), 0)",,,,2023-06-18 21:45:50,2023-06-18 21:45:51,0.814s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-18 21:45:51,2023-06-18 21:45:54,3.019s,PASSED
+closeApplication(),,,,2023-06-18 21:45:54,2023-06-18 21:45:57,2.722s,PASSED
+,,,,,,,
+Test Cases/Test_HappyDayShopping/FlashSale_AddProduct,,,,2023-06-18 21:45:57,2023-06-18 21:46:30,33.278s,FAILED
+"startApplication(""mobileapp\HappyDayShopping_1.2.apk"", true)",,,,2023-06-18 21:45:58,2023-06-18 21:46:30,32.013s,FAILED

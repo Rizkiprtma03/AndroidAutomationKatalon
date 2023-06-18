@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Apps_FlashSale_appPendaki,,,,2023-06-18 21:50:30,2023-06-18 21:52:58,2m - 27.962s,PASSED
+,,,,,,,
+Test Cases/Test_HappyDayShopping/FlashSale_AddProduct,,,,2023-06-18 21:50:31,2023-06-18 21:52:15,1m - 43.588s,PASSED
+"startApplication(""mobileapp\HappyDayShopping_1.2.apk"", true)",,,,2023-06-18 21:50:33,2023-06-18 21:51:14,41.681s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.view.ViewGroup""), 0)",,,,2023-06-18 21:51:14,2023-06-18 21:51:17,2.686s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.view.ViewGroup (1)""), 0)",,,,2023-06-18 21:51:17,2023-06-18 21:51:21,4.222s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.view.ViewGroup (2)""), 0)",,,,2023-06-18 21:51:21,2023-06-18 21:51:23,1.897s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.widget.TextView - Your Bag""), 0)",,,,2023-06-18 21:51:23,2023-06-18 21:51:54,30.516s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.view.ViewGroup (3)""), 0)",,,,2023-06-18 21:51:54,2023-06-18 21:51:55,1.465s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.view.ViewGroup (4)""), 0)",,,,2023-06-18 21:51:55,2023-06-18 21:51:57,1.357s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.widget.TextView - .2.00   Save""), 0)",,,,2023-06-18 21:51:57,2023-06-18 21:51:57,0.950s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.view.ViewGroup (5)""), 0)",,,,2023-06-18 21:51:57,2023-06-18 21:51:59,1.822s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-18 21:51:59,2023-06-18 21:52:02,3.121s,PASSED
+"getText(findTestObject(""Object Repository/HappyDayShopping_Mobile/FlashSale2/android.widget.TextView - If you have any inquiries or updates pls whatsap us at 94617563""), 0)",,,,2023-06-18 21:52:02,2023-06-18 21:52:11,9.016s,PASSED
+closeApplication(),,,,2023-06-18 21:52:11,2023-06-18 21:52:15,3.118s,PASSED
+,,,,,,,
+Test Cases/Test_AppPendaki/OpenDetail,,,,2023-06-18 21:52:15,2023-06-18 21:52:58,43.496s,PASSED
+"startApplication(""mobileapp\app-pendaki.apk"", true)",,,,2023-06-18 21:52:16,2023-06-18 21:52:46,30.102s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-18 21:52:46,2023-06-18 21:52:49,3.010s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/ListPictureImageView""), 0)",,,,2023-06-18 21:52:49,2023-06-18 21:52:50,1.156s,PASSED
+"scrollToText(""Argopoera"")",,,,2023-06-18 21:52:50,2023-06-18 21:52:52,1.674s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/BackImageButton""), 0)",,,,2023-06-18 21:52:52,2023-06-18 21:52:52,0.660s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-06-18 21:52:52,2023-06-18 21:52:55,3.021s,PASSED
+closeApplication(),,,,2023-06-18 21:52:55,2023-06-18 21:52:58,2.626s,PASSED
